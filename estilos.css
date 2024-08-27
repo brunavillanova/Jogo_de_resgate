@@ -304,5 +304,12 @@ h3 {
 	padding:10px;
 
 }
+#controls {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 
 
