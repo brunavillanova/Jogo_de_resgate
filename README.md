@@ -19,20 +19,41 @@ Estrutura do Projeto
 
 O projeto é organizado em vários arquivos para separar as responsabilidades e facilitar a manutenção do código:
 
-bash
 
-/ (pasta raiz)
+/ (JOGO)
+├── /fontes/
+│   └── ANODETONOONE.TTF
+├── /imgs/
+│   ├── amigo.png
+│   ├── amigo_morte.png
+│   ├── apache.png
+│   ├── disparo.png
+│   ├── energia0.png
+│   ├── energia1.png
+│   ├── energia2.png
+│   ├── energia3.png
+│   ├── explosao.png
+│   ├── fundo.jpg
+│   ├── fundo_game.jpg
+│   ├── icon.png
+│   ├── image.png
+│   ├── inimigo1.png
+│   └── inimigo2.png
+├── /js/
+│   ├── jquery-1.11.1.min.js
+│   ├── jquery-collision.min.js
+│   └── js.js
+├── /sons/
+│   ├── explosao.mp3
+│   ├── gameover.mp3
+│   ├── musica_fundo.mp3
+│   ├── perdido.mp3
+│   ├── resgate.mp3
+│   └── som.mp3
 ├── index.html
 ├── estilos.css
-├── /imgs/
-│   └── fundo.jpg
-└── /sons/
-    ├── som.mp3
-    ├── explosao.mp3
-    ├── musica_fundo.mp3
-    ├── gameover.mp3
-    ├── perdido.mp3
-    └── resgate.mp3
+└── README.md
+
 
 Descrição dos Arquivos
 1. index.html
