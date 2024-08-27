@@ -467,21 +467,6 @@ function gameOver() {
 
 
 
-    function moveUp() {
-        var topo = parseInt($("#jogador").css("top"));
-        $("#jogador").css("top", topo - 10);
-        if (topo <= 0) {
-            $("#jogador").css("top", topo + 10);
-        }
-    }
-    
-    function moveDown() {
-        var topo = parseInt($("#jogador").css("top"));
-        $("#jogador").css("top", topo + 10);
-        if (topo >= 434) {
-            $("#jogador").css("top", topo - 10);
-        }
-    }
     
 
 } // Fim da função start
