@@ -90,6 +90,7 @@ Os áudios são carregados automaticamente e estão prontos para serem reproduzi
     Game Over: gameover.mp3
     Som de resgate: resgate.mp3
 
-Considerações Finais
 
-Este documento fornece uma visão geral das principais partes do código e dos arquivos envolvidos. Para expandir este projeto, considere adicionar mais funcionalidades, como pontuação, níveis de dificuldade, e animações adicionais.
+Nota Importante
+
+Este projeto é um plágio da plataforma DIO e foi utilizado para fins educacionais e de aprendizado. Não deve ser utilizado para fins comerciais ou divulgação sem as devidas permissões.
