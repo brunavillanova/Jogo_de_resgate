@@ -464,6 +464,26 @@ function gameOver() {
 	$("#fim").html("<h1> Game Over </h1><p>Sua pontuação foi: " + pontos + "</p>" + "<div id='reinicia' onClick=reiniciaJogo()><h3>Jogar Novamente</h3></div>");
 	} // Fim da função gameOver();
 
+
+
+
+    function moveUp() {
+        var topo = parseInt($("#jogador").css("top"));
+        $("#jogador").css("top", topo - 10);
+        if (topo <= 0) {
+            $("#jogador").css("top", topo + 10);
+        }
+    }
+    
+    function moveDown() {
+        var topo = parseInt($("#jogador").css("top"));
+        $("#jogador").css("top", topo + 10);
+        if (topo >= 434) {
+            $("#jogador").css("top", topo - 10);
+        }
+    }
+    
+
 } // Fim da função start
 
 
