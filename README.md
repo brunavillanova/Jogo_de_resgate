@@ -1,4 +1,7 @@
 Documentação do Projeto: Resgate
+
+![Interface do Projeto](imgs/image.png)
+
 Índice
 
     Introdução
